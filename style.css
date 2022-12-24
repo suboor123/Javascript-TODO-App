@@ -1,0 +1,4 @@
+.list-group-item:hover {
+    background-color: rgba(255, 99, 71, 0.535);
+    cursor: pointer;
+}
