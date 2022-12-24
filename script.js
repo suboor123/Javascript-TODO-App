@@ -27,8 +27,13 @@ function addTodo() {
   }
 }
 
-
 function deleteTodo(index) {
-    todos.splice(index, 1);
-    populateList();
+  todos.splice(index, 1);
+  populateList();
 }
+
+function deleteAllTodos() {
+  todos = [];
+  populateList();
+}
+
